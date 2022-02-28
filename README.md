@@ -3,7 +3,7 @@ Using Python to analyze data from a local election
 
 ## Overview of Election Audit
 
-The purpose of this audit was to break down analyze votes in a local Colorado election. 
+The purpose of this audit was to break down analyze votes in a local Colorado election. By using this code, we get to see in depth what happened in this election. It will tell us the total number of votes, the votes breakdown in each county in the election, and how many votes each candidate got. This will then allow us to figure out which county had the most votes, and which candidate won the election.
 
 ## Election Audit Results
 
@@ -29,4 +29,4 @@ Diana Degette won the election. Diana recieved 272,892 votes, which was 73.8% of
 
 ## Election-Audit Summary
 
-Although this script was used at a local level, it has 
+Although this script was used at a local level, it has much broader applications with some more tuning. With a few simple itterations, the same general framework can be used to analyze all sorts of different elections. For example, if we wanted to look at a national election, it would be very easy to add a "states" category and track those votes as well. You could also go more in depth with the analysis, and figure out which candidate performed the best in each area you want to filter for, whether that be county, state, or even country if we applied this to interational competitions.
